@@ -1,0 +1,30 @@
+{
+  "url": "string",
+  "item_id": "string | null",
+  "title": "string | null",
+  "brand": "string | null",
+  "product_category": "string | null",
+  "category_tree": [
+    {
+      "name": "string",
+      "url": "string | null"
+    }
+  ],
+  "description": "string | null",
+  "price": "number | null",
+  "sale_price": "number | null",
+  "availability": "\"in_stock\" | \"out_of_stock\" | \"pre_order\" | null",
+  "image_url": "string | null",
+  "additional_image_urls": ["string"],
+  "specs": [
+    {
+      "name": "string",
+      "value": "string | null"
+    }
+  ],
+  "star_rating": "number | null",
+  "review_count": "number | null",
+  "gtin": "string | null",
+  "mpn": "string | null",
+  "scraped_at": "ISO 8601 datetime string"
+}
